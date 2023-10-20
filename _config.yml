@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: dongwook
-middle_name: ""
-last_name: Lee
+title: "blank" # the website title (if blank, full name will be used instead)
+first_name: "Dongwook"
+middle_name: " "
+last_name: "Lee"
 email: dwsmart32@snu.ac.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -104,7 +104,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+""
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
