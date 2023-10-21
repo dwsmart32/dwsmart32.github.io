@@ -77,7 +77,7 @@ My research focuses on the field of reinforcement learning (RL) and multimodal d
       <h3 class="school-name">Peking University, China</h3>
       <p class="degree">Exchange Student in Engineering College</p>
     </div>
-    <p class="time-period">Oct.2022 - Jan.2023</p>
+    <p class="time-period">Jan.2022 - Jan.2023</p>
   </div>
 
 </div>
