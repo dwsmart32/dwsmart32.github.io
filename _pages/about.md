@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hello! I'm a student from <a href="https://en.snu.ac.kr/index.html">Seoul National University</a> deeply interested in computer science. 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Korea.
+subtitle: Hello! I'm a student from <a href="https://en.snu.ac.kr/index.html">Seoul National University</a> deeply interested in computer science.
 
 profile:
   align: right
@@ -16,8 +16,9 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-
-[Vision & Learning Lab](https://vision.snu.ac.kr/)(Supervisor: [Prof. Gunhee Kim](https://vision.snu.ac.kr/gunhee/index.html#top)), SNU, Korea<br/>
+Current Affiliation<br>
+[Vision & Learning Lab](https://vision.snu.ac.kr/)(Supervisor: [Prof. Gunhee Kim](https://vision.snu.ac.kr/gunhee/index.html#top)), SNU.<br>
+[1 Gwanak-ro, Gwanak-gu, Seoul 08826, Korea]<br/>
 Email: dwsmart32@snu.ac.kr
 #### Major
 Department of Naval architecture and Ocean Engineering<br/>
@@ -25,7 +26,9 @@ Department of Computer Science and Engineering
 
 
 #### Research Interests
-My research focuses on the field of reinforcement learning (RL) and multimodal research. Currently, my primary attention is directed towards offline reinforcement learning (Offline RL).
+My research focuses on the field of reinforcement learning (RL) and multimodal domain. Currently, my primary attention is directed towards offline reinforcement learning (Offline RL).
+
+
 
 #### Education
 <style>
