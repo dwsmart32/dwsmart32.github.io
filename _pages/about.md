@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 [Vision & Learning Lab](https://vision.snu.ac.kr/)(Supervisor: Prof. Gunhee Kim), SNU, Korea<br/>
 Email: dwsmart32@snu.ac.kr
 #### Major
-Department of Naval architecture and Ocean Engineering
+Department of Naval architecture and Ocean Engineering<br/>
 Department of Computer Science and Engineering
 
 
