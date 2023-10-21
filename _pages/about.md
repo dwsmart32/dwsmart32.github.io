@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-[Vision & Learning Lab](https://vision.snu.ac.kr/)(Supervisor: Prof. Gunhee Kim), SNU, Korea<br/>
+[Vision & Learning Lab](https://vision.snu.ac.kr/)(Supervisor: [Prof. Gunhee Kim](https://vision.snu.ac.kr/gunhee/index.html#top)), SNU, Korea<br/>
 Email: dwsmart32@snu.ac.kr
 #### Major
 Department of Naval architecture and Ocean Engineering<br/>
@@ -64,11 +64,6 @@ My research focuses on the field of reinforcement learning (RL) and multimodal r
     <p class="time-period">Mar.2016 - Present</p>
   </div>
 
-  <!-- Military Service -->
-  <div class="education-entry">
-    <h3 class="military-service">Military Service | Air-force, Korea</h3>
-    <p class="time-period">Jan.2018 - Dec,2019</p>
-  </div>
 
   <!-- Peking University -->
   <div class="education-entry">
@@ -80,3 +75,8 @@ My research focuses on the field of reinforcement learning (RL) and multimodal r
   </div>
 
 </div>
+  <!-- Military Service -->
+  <div class="education-entry">
+    <h3 class="military-service">Military Service | Air-force, Korea</h3>
+    <p class="time-period">Jan.2018 - Dec.2019</p>
+  </div>
