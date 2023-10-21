@@ -81,11 +81,7 @@ My research focuses on the field of reinforcement learning (RL) and multimodal d
   </div>
 
 </div>
-  <!-- Military Service -->
-  <div class="education-entry">
-    <h3 class="military-service">Military Service | Air-force, Korea</h3>
-    <p class="time-period">Jan.2018 - Dec.2019</p>
-  </div>
+
 
 #### Experience
 
@@ -122,17 +118,26 @@ My research focuses on the field of reinforcement learning (RL) and multimodal d
 </style>
 
 <div class="experience-section">
-
-  <!-- Daewoo ShipBuilding & Marine Engineering -->
+  <!-- Seoul National University Vision & Learning Lab 추가 -->
   <div class="experience-entry">
-    <div>
-      <div class="company-line"><span class="company-name">Daewoo ShipBuilding & Marine Engineering</span> <span class="location">| Siheung, Korea</span></div>
-      <p class="role">Propulsion Design R&D Team Intern</p>
-      <p class="description">Introduced a process to visualize a propeller for a commercial container ship using C++ and the company's data.</p>
-      <p class="description">Analyzed the efficiency of different propeller shapes for sailing commercial containers.</p>
-    </div>
-    <p class="time-period">Jul.2020 - Aug.2020</p>
+      <div>
+        <div class="company-line"><span class="company-name">Seoul National University Vision & Learning Lab</span> <span class="location">| Seoul, Korea</span></div>
+        <p class="role">Intern Researcher in Reinforcement Learning</p>
+        <!-- 필요한 내용 또는 기타 세부사항 추가 -->
+      </div>
+      <p class="time-period">Jan.2023 - Present</p>
   </div>
+
+  <!-- Peking University -->
+  <div class="experience-entry">
+      <div>
+        <div class="company-line"><span class="company-name">Peking (Beijing) University</span> <span class="location">| Beijing, China</span></div>
+        <p class="role">Intern Researcher in Multimodal Domain</p>
+        <p class="description">Conducted research to enhance fine-grained classification performance by utilizing sound, image, and text modalities in the multimodal domain.</p>
+      </div>
+      <p class="time-period">Oct.2022 - Jan.2023</p>
+  </div>
+
 
   <!-- Hyundai Mobis
   <div class="experience-entry">
@@ -156,25 +161,24 @@ My research focuses on the field of reinforcement learning (RL) and multimodal d
     <p class="time-period">Sep.2021 - Dec.2021</p>
   </div>
 
-<!-- Peking University -->
-<div class="experience-entry">
-    <div>
-      <div class="company-line"><span class="company-name">Peking (Beijing) University</span> <span class="location">| Beijing, China</span></div>
-      <p class="role">Intern Researcher in Multimodal Domain</p>
-      <p class="description">Conducted research to enhance fine-grained classification performance by utilizing sound, image, and text modalities in the multimodal domain.</p>
-    </div>
-    <p class="time-period">Oct.2022 - Jan.2023</p>
-</div>
 
 
-  <!-- Seoul National University Vision & Learning Lab 추가 -->
+  <!-- Daewoo ShipBuilding & Marine Engineering -->
   <div class="experience-entry">
     <div>
-      <div class="company-line"><span class="company-name">Seoul National University Vision & Learning Lab</span> <span class="location">| Seoul, Korea</span></div>
-      <p class="role">Intern Researcher in Reinforcement Learning</p>
-      <!-- 필요한 내용 또는 기타 세부사항 추가 -->
+      <div class="company-line"><span class="company-name">Daewoo ShipBuilding & Marine Engineering</span> <span class="location">| Siheung, Korea</span></div>
+      <p class="role">Propulsion Design R&D Team Intern</p>
+      <p class="description">Introduced a process to visualize a propeller for a commercial container ship using C++ and the company's data.</p>
+      <p class="description">Analyzed the efficiency of different propeller shapes for sailing commercial containers.</p>
     </div>
-    <p class="time-period">Jan.2023 - Present</p>
-</div>
+    <p class="time-period">Jul.2020 - Aug.2020</p>
+  </div>
+
+  <!-- Military Service -->
+  <div class="education-entry">
+    <h3 class="military-service">Military Service | Air-force, Korea</h3>
+    <p class="time-period">Jan.2018 - Dec.2019</p>
+  </div>
+
 
 </div>
