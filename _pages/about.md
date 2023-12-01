@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hello! I'm a student from <a href="https://en.snu.ac.kr/index.html">Seoul National University</a> deeply interested in computer science.
+subtitle: Hello! I'm a student from <a href="https://en.snu.ac.kr/index.html">Seoul National University</a> deeply interested in Artificial Intelligence, Computer Science.
 
 profile:
   align: right
@@ -16,21 +16,23 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Current Affiliation<br>
+**Current Affiliation**<br>
 [Vision & Learning Lab](https://vision.snu.ac.kr/)(Supervisor: [Prof. Gunhee Kim](https://vision.snu.ac.kr/gunhee/index.html#top)), SNU.<br>
 [1 Gwanak-ro, Gwanak-gu, Seoul 08826, Korea]<br/>
-Email: dwsmart32@snu.ac.kr
-#### Major
+
+**Contact**<br/>
+dwsmart32@snu.ac.kr
+#### **Major**
 Department of Naval architecture and Ocean Engineering<br/>
 Department of Computer Science and Engineering
 
 
-#### Research Interests
-My research focuses on the field of reinforcement learning (RL) and multimodal domain. Currently, my primary attention is directed towards offline reinforcement learning (Offline RL).
+#### **Research Interests**
+My research focuses on the field of reinforcement learning (RL) and multimodal domain. Currently, my primary attention is directed towards offline reinforcement learning (Offline RL) and generalization.
 
 
 
-#### Education
+#### **Education**
 <style>
     .education-entry {
         display: flex;
@@ -63,7 +65,7 @@ My research focuses on the field of reinforcement learning (RL) and multimodal d
   <!-- Seoul National University -->
   <div class="education-entry">
     <div>
-      <h3 class="school-name">Seoul National University, Korea</h3>
+      <h3 class="school-name"><strong>Seoul National University, Korea</strong></h3>
       <p class="degree">B.S. in Naval Architecture and Ocean Engineering</p>
       <p class="degree">B.S. in Computer Science</p>
     </div>
@@ -74,7 +76,7 @@ My research focuses on the field of reinforcement learning (RL) and multimodal d
   <!-- Peking University -->
   <div class="education-entry">
     <div>
-      <h3 class="school-name">Peking University, China</h3>
+      <h3 class="school-name"><strong>Peking University, China</strong></h3>
       <p class="degree">Exchange Student in Engineering College</p>
     </div>
     <p class="time-period">Jan.2022 - Jan.2023</p>
@@ -83,7 +85,7 @@ My research focuses on the field of reinforcement learning (RL) and multimodal d
 </div>
 
 
-#### Experience
+#### **Experience**
 
 <style>
     .experience-entry {
@@ -121,7 +123,7 @@ My research focuses on the field of reinforcement learning (RL) and multimodal d
   <!-- Seoul National University Vision & Learning Lab 추가 -->
   <div class="experience-entry">
       <div>
-        <div class="company-line"><span class="company-name">Seoul National University Vision & Learning Lab</span> <span class="location">| Seoul, Korea</span></div>
+        <div class="company-line"><span class="company-name"><strong>Seoul National University Vision & Learning Lab</strong></span> <span class="location">| Seoul, Korea</span></div>
         <p class="role">Intern Researcher in Reinforcement Learning</p>
         <!-- 필요한 내용 또는 기타 세부사항 추가 -->
       </div>
@@ -131,7 +133,7 @@ My research focuses on the field of reinforcement learning (RL) and multimodal d
   <!-- Peking University -->
   <div class="experience-entry">
       <div>
-        <div class="company-line"><span class="company-name">Peking (Beijing) University</span> <span class="location">| Beijing, China</span></div>
+        <div class="company-line"><span class="company-name"><strong>Peking (Beijing) University</strong></span> <span class="location">| Beijing, China</span></div>
         <p class="role">Intern Researcher in Multimodal Domain</p>
         <p class="description">Conducted research to enhance fine-grained classification performance by utilizing sound, image, and text modalities in the multimodal domain.</p>
       </div>
@@ -152,7 +154,7 @@ My research focuses on the field of reinforcement learning (RL) and multimodal d
   <!-- Seoul National University Semi-Conductor for AI Laboratory -->
   <div class="experience-entry">
     <div>
-      <div class="company-line"><span class="company-name">Seoul National University Semi-Conductor for AI Laboratory</span> <span class="location">| Seoul, Korea</span></div>
+      <div class="company-line"><span class="company-name"><strong>Seoul National University Semi-Conductor for AI Laboratory</strong></span> <span class="location">| Seoul, Korea</span></div>
       <p class="role">Remote Exam Supervision Program Team Intern</p>
       <p class="description">Developed an application to facilitate remote exams and monitor students for abnormal behavior or objects using a real-time tracking model.</p>
       <p class="description">The application was built for Android OS using Java, with SSD AI models implemented for video object tracking.</p>
@@ -166,7 +168,7 @@ My research focuses on the field of reinforcement learning (RL) and multimodal d
   <!-- Daewoo ShipBuilding & Marine Engineering -->
   <div class="experience-entry">
     <div>
-      <div class="company-line"><span class="company-name">Daewoo ShipBuilding & Marine Engineering</span> <span class="location">| Siheung, Korea</span></div>
+      <div class="company-line"><span class="company-name"><strong>Daewoo ShipBuilding & Marine Engineering</strong></span> <span class="location">| Siheung, Korea</span></div>
       <p class="role">Propulsion Design R&D Team Intern</p>
       <p class="description">Introduced a process to visualize a propeller for a commercial container ship using C++ and the company's data.</p>
       <p class="description">Analyzed the efficiency of different propeller shapes for sailing commercial containers.</p>
@@ -176,7 +178,7 @@ My research focuses on the field of reinforcement learning (RL) and multimodal d
 
   <!-- Military Service -->
   <div class="education-entry">
-    <h3 class="military-service">Military Service | Air-force, Korea</h3>
+    <h3 class="military-service"><strong>Military Service</strong> | Air-force, Korea</h3>
     <p class="time-period">Jan.2018 - Dec.2019</p>
   </div>
 
