@@ -144,15 +144,18 @@
         <div class="periodical">
           {{ periodical | strip }}
         </div>
+
+
+
         <div class="periodical">
           {{ entry.note | strip }}
         </div>
-
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
+
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
