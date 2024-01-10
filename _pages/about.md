@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hello! I'm a student from <a href="https://en.snu.ac.kr/index.html">Seoul National University</a> deeply interested in Artificial Intelligence, Computer Science.
+subtitle: Hi! I'm a student at <a href="https://en.snu.ac.kr/index.html">Seoul National University</a> deeply interested in Artificial Intelligence, Computer Science.
 
 profile:
   align: right
