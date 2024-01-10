@@ -70,7 +70,7 @@ noindex: true
 </div>
 
 <div class="caption">
-    Beta test for each language storybook. [Image and audio example courtesy of Woongjin ThinkBig]
+    Beta testing for each language version of the storybook. [Image and audio example provided courtesy of Woongjin ThinkBig]
 </div>
 
 <br/>
