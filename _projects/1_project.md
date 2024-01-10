@@ -11,20 +11,20 @@ noindex: true
 
 
 ##### **Objective of the Research**
-- The project aims to develop a voice-based text highlighting technology for the audiobook content within the Woongjin Book Club, a service by Woongjin ThinkBig.
+- The project aims to develop a voice-based text highlighting technology for audiobook content within the Woongjin Book Club, a service by Woongjin ThinkBig.
 
 ##### **Necessity of the Research**
 - The current audiobook content often includes multiple images and texts on one page, making it hard to identify the text being read. This is particularly challenging for young children and primary school students, affecting their engagement and concentration.
 - The research aims to develop technology for automatically highlighting the text being read, based on voice recognition, to improve engagement and literacy skills in children.
 
 ##### **Technologies**
-- Speech-to-Text(STT) model was utilized to detect time per words.
-- Optical-Character-Recognition (OCR) model was also trained and utilized to detect text areas(bounding boxes) and characters(texts) from the audiobook video pages.
+- A Speech-to-Text(STT) model was utilized to detect time per word.
+- An Optical-Character-Recognition (OCR) model was trained and utilized to detect text areas(bounding boxes) and characters(texts) from the audiobook video pages.
 - The research primarily integrated these two technologies to connect audio recognition with visual text display.
 
 ##### **Visualizing**
-- Needleman-Wunsch algorithm is adopted to match the result of OCR model and STT model.
-- Visualizing tool is provided by Woongjin to check the result of the algorithm.
+- The Needleman-Wunsch algorithm is adopted to match the result of OCR model and the STT model.
+- A visualizing tool provided by Woongjin is used to check the results of the algorithm.
 
 
 <div class="row justify-content-center">
@@ -36,7 +36,7 @@ noindex: true
     </div>
 </div>
 <div class="caption text-center">
-    The dataset was also crafted with 55 diverse fonts from Woongjin's collection and the public domain. It contains 2 million unique entries with rich backgrounds and varied text styles.
+    The dataset was crafted with numerous fonts provided by Woongjin. It contains 2 million unique images with various backgrounds and text styles.
 </div>
 
 <div class="row">
@@ -45,7 +45,7 @@ noindex: true
     </div>
 </div>
 <div class="caption">
-    Result of the OCR Model.
+    Sample results of our OCR Model.
 </div>
 
 
@@ -70,7 +70,7 @@ noindex: true
 </div>
 
 <div class="caption">
-    Beta testing for each language storybook. [Image and audio example courtesy of Woongjin ThinkBig]
+    Beta test for each language storybook. [Image and audio example courtesy of Woongjin ThinkBig]
 </div>
 
 <br/>
