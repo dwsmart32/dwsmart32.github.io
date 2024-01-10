@@ -179,7 +179,7 @@ My research focuses on the field of reinforcement learning (RL) and multimodal d
   <!-- Military Service -->
   <div class="education-entry">
     <h3 class="military-service"><strong>Military Service</strong> | Air-force, Korea</h3>
-    <p class="time-period">Jan.2018 - Dec.2019</p>
+    <p class="time-period">Jan.2018 - Jan.2020</p>
   </div>
 
 
