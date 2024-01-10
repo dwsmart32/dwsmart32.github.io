@@ -18,13 +18,13 @@ noindex: true
 - The research aims to develop technology for automatically highlighting the text being read, based on voice recognition, to improve engagement and literacy skills in children.
 
 ##### **Technologies**
-- Speech-to-Text(STT) model was trained and used to detect time per words recognize the audio content of the audiobook.
-- Deep learning-based Optical-Character-Recognition (OCR) technology was trained and utilized to detect text areas(bounding boxes) and characters(texts) from the audiobook video pages.
+- Speech-to-Text(STT) model was utilized to detect time per words.
+- Optical-Character-Recognition (OCR) model was also trained and utilized to detect text areas(bounding boxes) and characters(texts) from the audiobook video pages.
 - The research primarily integrated these two technologies to connect audio recognition with visual text display.
 
 ##### **Visualizing**
-- Dynmaic programming algorithm is utilized to match the result of OCR model and STT model. Lastly, XML file is created for displaying the visual effects.
-- Visualizing tool is provided by Woongjin ThinkBig to check the result of the algorithm.
+- Needleman-Wunsch algorithm is adopted to match the result of OCR model and STT model.
+- Visualizing tool is provided by Woongjin to check the result of the algorithm.
 
 
 <div class="row justify-content-center">
