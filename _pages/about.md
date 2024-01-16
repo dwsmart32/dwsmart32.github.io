@@ -133,7 +133,7 @@ My research focuses on the field of reinforcement learning (RL) and multimodal d
   <!-- Peking University -->
   <div class="experience-entry">
       <div>
-        <div class="company-line"><span class="company-name"><strong>Peking (Beijing) University</strong></span> <span class="location">| Beijing, China</span></div>
+        <div class="company-line"><span class="company-name"><strong>Peking University</strong></span> <span class="location">| Beijing, China</span></div>
         <p class="role">Intern Researcher in Multimodal Domain</p>
         <p class="description">Conducted research to enhance fine-grained classification performance by utilizing sound, image, and text modalities in the multimodal domain.</p>
       </div>
