@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hi! I'm a student at <a href="https://en.snu.ac.kr/index.html">Seoul National University</a> deeply interested in Artificial Intelligence, Computer Science.
+subtitle: Hey! 👋 I’m a fourth year undergraduate student at <a href="https://en.snu.ac.kr/index.html">Seoul National University</a> studying computer science. I’m deeply interested in reinforcement learning and guiding 🤖 agents to survive in uncertain environments. Plus, I’m also very interested in multi-domain topics, especially in the fields of image 🖼️ and text 📖 processing.
+
 
 profile:
   align: right
