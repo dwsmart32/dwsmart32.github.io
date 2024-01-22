@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 [1 Gwanak-ro, Gwanak-gu, Seoul 08826, Korea]<br/>
 
 **Contact**<br/>
-dwsmart32@snu.ac.kr
+<a href="mailto:dwsmart32@snu.ac.kr">dwsmart32@snu.ac.kr</a>
 #### **Major**
 Department of Naval architecture and Ocean Engineering<br/>
 Department of Computer Science and Engineering
