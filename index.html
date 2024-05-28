@@ -9,20 +9,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="data/DW.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-
+    <style>
+      .nowrap {
+        white-space: nowrap;
+      }
+      .left-align {
+        text-align: left; /* 세부 설명을 왼쪽 정렬 */
+      }
+      .right-align {
+        text-align: right; /* 날짜를 오른쪽 정렬 */
+      }
+    </style>
   </head>
 
   <body>
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
+          <!-- intro -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align: center;">
                   Dongwook Lee
                 </p>
-                <p>Hi! I’m a undergraduate student at Seoul National University advised by <a href="https://vision.snu.ac.kr/gunhee/">Gunhee Kim</a>. I’m deeply interested in guiding agents to survive in uncertain environments and constructing RL foundation model.
+                <p>Hi! I’m a undergraduate student at Seoul National University advised by <a href="https://vision.snu.ac.kr/gunhee/">Gunhee Kim</a>. I’m deeply interested in guiding agents to survive in uncertain environments and constructing RL foundation model. I am currently focusing on training or guiding agents with prior knowledge of existing foundation models, like VLMs.</p>
                 </p>
 
                 <p style="text-align:center">
@@ -39,6 +50,8 @@
               </td>
             </tr>
           </tbody></table>
+
+          <!-- Research -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
@@ -48,130 +61,139 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <!-- first paper -->
+          <tr bgcolor="#ffffd0">
+            <td style="padding:20px; width:25%; vertical-align:middle; text-align:center;">
+              <img src="data/paper_image.jpg" alt="Overview of Compositional Conservatism" style="width: auto; max-width: 100%; height: auto;">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://openreview.net/forum?id=HRkyLbBRHI">
+                <span class="papertitle">Compositional Conservatism: A Transductive Approach in Offline Reinforcement Learning
+                </span>
+                </a>
+                <br>
+                <a href="https://yedasong.com/">Yeda Song</a>*,
+                <strong>Dongwook Lee</strong>*,
+                <a href="https://vision.snu.ac.kr/gunhee/">Gunhee Kim</a>
 
-    <tr bgcolor="#ffffd0">
-      <td style="padding:20px; width:25%; vertical-align:middle; text-align:center;">
-        <img src="data/paper_image.jpg" alt="Overview of Compositional Conservatism" style="width: auto; max-width: 100%; height: auto;">
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://openreview.net/forum?id=HRkyLbBRHI">
-			<span class="papertitle">Compositional Conservatism: A Transductive Approach in Offline Reinforcement Learning
-</span>
-        </a>
-        <br>
-				<a href="https://yedasong.com/">Yeda Song</a>*,
-        <strong>Dongwook Lee</strong>,*,
-        <a href="https://vision.snu.ac.kr/gunhee/">gunhee Kim</a>,
+                <br>
+                <em>ICLR</em>, 2024
+                <br>
+                <a href="https://openreview.net/forum?id=HRkyLbBRHI">Openreview</a>
+                /
+                <a href="https://arxiv.org/abs/2404.04682">arXiv</a>
+                /
+                <a href="https://github.com/runamu/compositional-conservatism">CODE</a>
+                <p></p>
+                <p>
+                COCOA is a novel approach in offline reinforcement learning (RL) that promotes compositional conservatism by breaking down the input state into an anchor and its deviation. It utilizes a learned reverse dynamics model to ensure both the anchors and differences align with in-distribution data, thereby mitigating OOD problem in the input space used by policies or value functions.
+                </p>
+            </td>
 
-        <br>
-        <em>ICLR</em>, 2024
-        <br>
-        <a href="https://openreview.net/forum?id=HRkyLbBRHI">Openreview</a>
-        /
-        <a href="https://arxiv.org/abs/2404.04682">arXiv</a>
-        /
-        <a href="https://github.com/runamu/compositional-conservatism">CODE</a>
-        <p></p>
-        <p>
-        COCOA is a novel approach in offline reinforcement learning (RL) that promotes compositional conservatism by breaking down the input state into an anchor and its deviation. It utilizes a learned reverse dynamics model to ensure both the anchors and differences align with in-distribution data, thereby mitigating OOD problem in the input space used by policies or value functions.
-        </p>
-      </td>
-      <style>
-        .nowrap {
-          white-space: nowrap;
-        }
-        .left-align {
-          text-align: left; /* 세부 설명을 왼쪽 정렬 */
-        }
-        .right-align {
-          text-align: right; /* 날짜를 오른쪽 정렬 */
-        }
-      </style>
-
-    </tr>
-        <!-- Education -->
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tbody>
-            <tr>
-              <td colspan="2">
-                <h2><strong>Education</strong></h2>
-              </td>
-            </tr>
-            <tr>
-              <td class="left-align"><strong>Seoul National University, Korea</strong><br>
-                B.S. in Naval Architecture and Ocean Engineering<br>
-                B.S. in Computer Science
-              </td>
-              <td class="right-align nowrap">
-                Mar. 2016 - Present
-              </td>
-            </tr>
-            <tr>
-              <td class="left-align"><strong>Peking University, China</strong><br>
-                Exchange Student in Engineering College
-              </td>
-              <td class="right-align nowrap">
-                Jan. 2022 - Jan. 2023
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-          <!-- Experience -->
+          </tr>
+          <!-- Education -->
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
             <tbody>
               <tr>
-                <td colspan="2">
-                  <h2><strong>Experience</strong></h2>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <h2>Education</h2>
                 </td>
               </tr>
               <tr>
-                <td class="left-align"><strong>Seoul National University Vision & Learning Lab | Seoul, Korea</strong><br>
-                  Intern Researcher in Reinforcement Learning
+                <td class="left-align"><strong>Seoul National University, Korea</strong><br>
+                  B.S. in Naval Architecture and Ocean Engineering<br>
+                  B.S. in Computer Science
                 </td>
                 <td class="right-align nowrap">
-                  Jan. 2023 - Present
+                  Mar. 2016 - Present
                 </td>
               </tr>
               <tr>
-                <td class="left-align"><strong>Peking University | Beijing, China</strong><br>
-                  Intern Researcher in Multimodal Domain<br>
-                  Conducted research to enhance fine-grained classification performance using sound, image, and text modalities.
+                <td class="left-align"><strong>Peking University, China</strong><br>
+                  Exchange Student in Engineering College
                 </td>
                 <td class="right-align nowrap">
-                  Oct. 2022 - Jan. 2023
-                </td>
-              </tr>
-              <tr>
-                <td class="left-align"><strong>Seoul National University Semi-Conductor for AI Laboratory | Seoul, Korea</strong><br>
-                  Remote Exam Supervision Program Team Intern<br>
-                  An Android application for real-time exam supervision.
-                </td>
-                <td class="right-align nowrap">
-                  Sep. 2021 - Dec. 2021
-                </td>
-              </tr>
-              <tr>
-                <td class="left-align"><strong>Daewoo ShipBuilding & Marine Engineering | Siheung, Korea</strong><br>
-                  Propulsion Design R&D Team Intern<br>
-                  Introduced a process to visualize a propeller for a commercial container ship using C++. Analyzed the efficiency of propeller shapes.
-                </td>
-                <td class="right-align nowrap">
-                  Jul. 2020 - Aug. 2020
-                </td>
-              </tr>
-              <tr>
-                <td class="left-align"><strong>Military Service | Air-force, Korea</strong><br>
-                  Service Period
-                </td>
-                <td class="right-align nowrap">
-                  Jan. 2018 - Dec. 2019
+                  Jan. 2022 - Jan. 2023
                 </td>
               </tr>
             </tbody>
           </table>
 
+            <!-- Experience -->
+            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+              <tbody>
+                <tr>
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <h2>Experience</h2>
+                  </td>
+                  <!-- <td colspan="2">
+                    <h2><strong>Experience</strong></h2>
+                  </td> -->
+                </tr>
+                <tr>
+                  <td class="left-align"><strong>Seoul National University Vision & Learning Lab | Seoul, Korea</strong><br>
+                    Intern Researcher in Reinforcement Learning
+                  </td>
+                  <td class="right-align nowrap">
+                    Jan. 2023 - Present
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align"><strong>Peking University | Beijing, China</strong><br>
+                    Intern Researcher in Multimodal Domain<br>
+                    Fine-grained classification on sound, image, and text modalities.
+                  </td>
+                  <td class="right-align nowrap">
+                    Oct. 2022 - Jan. 2023
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align"><strong>Seoul National University Semi-Conductor for AI Laboratory | Seoul, Korea</strong><br>
+                    Remote Exam Supervision Program Team Intern<br>
+                    An Android application for real-time exam supervision.
+                  </td>
+                  <td class="right-align nowrap">
+                    Sep. 2021 - Dec. 2021
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align"><strong>Daewoo ShipBuilding & Marine Engineering | Siheung, Korea</strong><br>
+                    Propulsion Design R&D Team Intern<br>
+                    Render a propeller model for a commercial container ship with C++.
+                  </td>
+                  <td class="right-align nowrap">
+                    Jul. 2020 - Aug. 2020
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align"><strong>Military Service | Air-force, Korea</strong><br>
+                    Service Period
+                  </td>
+                  <td class="right-align nowrap">
+                    Jan. 2018 - Dec. 2019
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
+            <!-- Corporate Projects Section -->
+            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+              <tbody>
+                <tr>
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <h2>Corporate Projects</h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align"><strong>Edutech Research Institute, Woongjin CoE | Woongjin ThinkBig</strong><br>
+                    Recognizing speech (TTS) and highlighting text (OCR) based on recognized speech for children's audiobooks in the Woongjin Book Club by Woongjin ThinkBig.
+                  </td>
+                  <td class="right-align nowrap">
+                    Jan. 2023 - Dec. 2023
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
