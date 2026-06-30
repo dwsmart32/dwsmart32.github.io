@@ -75,12 +75,7 @@ img {
   height: var(--header-height);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.nav-logo {
-  color: var(--title-color);
+  justify-content: flex-end;
 }
 
 .nav-links {
@@ -130,6 +125,7 @@ a.anchor {
   color: var(--muted-color);
   font-size: 0.95rem;
   text-align: left;
+  clear: both;
 }
 
 .profile-links a {
@@ -150,6 +146,7 @@ a.anchor {
   padding: 0.7rem 0.7rem 0.7rem 0.7rem;
   border-radius: 0.25rem;
   transition: 0.3s;
+  min-height: 142px;
 }
 
 .research-card:hover {
@@ -252,13 +249,8 @@ a.anchor {
   }
 
   .nav {
-    align-items: flex-start;
-    height: auto;
-    min-height: var(--header-height);
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    flex-direction: column;
-    gap: 0.4rem;
+    height: var(--header-height);
+    justify-content: center;
   }
 
   .nav-links {
@@ -269,17 +261,18 @@ a.anchor {
   }
 
   .main {
-    padding-top: 5.8rem;
+    padding-top: var(--header-height);
   }
 
   a.anchor {
-    margin-top: -5.8rem;
-    padding-top: 5.8rem;
+    margin-top: calc(0rem - var(--header-height));
+    padding-top: var(--header-height);
   }
 
   .research-card {
     grid-template-columns: 1fr;
     gap: 0.45rem;
+    min-height: auto;
   }
 
   .research-teaser {
