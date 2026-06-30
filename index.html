@@ -20,224 +20,188 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="data/dw.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <style>
-      .nowrap {
-        white-space: nowrap;
-      }
-      .left-align {
-        text-align: left; /* 세부 설명을 왼쪽 정렬 */
-      }
-      .right-align {
-        text-align: right; /* 날짜를 오른쪽 정렬 */
-      }
-    </style>
   </head>
 
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <!-- intro -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Dongwook Lee
-                </p>
-                <p>Hi! I’m a undergraduate student at Seoul National University advised by <a href="https://vision.snu.ac.kr/gunhee/">Gunhee Kim</a>. My research focuses on aligning agents' decision-making with human intent in uncertain environments. Specifically, I am exploring how multi-modal representations and general intelligence can be leveraged to guide agents toward human-aligned reasoning and behavior.</p>
-                </p>
+    <header class="header">
+      <nav class="nav container">
+        <a href="#about" class="nav-logo"></a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#background">Background</a>
+          <a href="#teaching">Teaching</a>
+        </div>
+      </nav>
+    </header>
 
-                <p style="text-align:center">
-                  <a href="mailto:dwsmart32@snu.ac.kr">Email</a> &nbsp;/&nbsp;
-                  <!-- <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp; -->
-                  <span style="color: black;">CV (deactivated for a while)</span> &nbsp;/&nbsp;
-                  <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp; -->
-                  <a href="https://x.com/Dongwook_Lee_1">Twitter</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/dwsmart32/">Github</a> &nbsp;/&nbsp;
-                  <a href="https://www.linkedin.com/in/dongwook-lee-1738701b2/">LinkedIn</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="data/dongwook.png"><img style="width:100%;max-width:300%;object-fit: cover; " alt="profile photo" src="data/dongwook.png" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
+    <main class="main">
+      <a class="anchor" id="about"></a>
+      <section class="section about-section">
+        <div class="container">
+          <h2 class="home-title">Dongwook Lee</h2>
+          <a href="data/dongwook.png">
+            <img class="profile-photo" src="data/dongwook.png" alt="Dongwook Lee">
+          </a>
+          <p>
+            I am an M.S. student in Computer Science at Seoul National University, advised by <a href="http://ailab.snu.ac.kr/">Sungroh Yoon</a>. Previously, I received my B.S. from Seoul National University. My research interests center on speech-language models for natural spoken interaction, with a focus on real-time, human-like agents that can coordinate, interrupt, and continue conversations naturally.
+          </p>
+          <p class="profile-links">
+            Email: <a href="mailto:dwsmart32@snu.ac.kr">dwsmart32@snu.ac.kr</a> &nbsp;/&nbsp;
+            <a href="https://github.com/dwsmart32/">GitHub</a> &nbsp;/&nbsp;
+            <a href="https://www.linkedin.com/in/dongwook-lee-1738701b2/">LinkedIn</a>
+          </p>
+        </div>
+      </section>
 
-          <!-- Research -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <a class="anchor" id="research"></a>
+      <section class="section">
+        <div class="container grid">
+          <div class="section-label">Research</div>
 
-          <!-- first paper -->
-          <tr bgcolor="#ffffd0">
-            <td style="padding:20px; width:25%; vertical-align:middle; text-align:center;">
-              <img src="data/paper_image.jpg" alt="Overview of Compositional Conservatism" style="width: auto; max-width: 100%; height: auto;">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://openreview.net/forum?id=HRkyLbBRHI">
-                <span class="papertitle">Compositional Conservatism: A Transductive Approach in Offline Reinforcement Learning
-                </span>
-                </a>
-                <br>
+          <article class="research-card">
+            <div class="research-teaser">
+              <a href="data/naturalflow_teaser.png">
+                <img src="data/naturalflow_teaser.png" alt="NaturalFlow comparison with baseline simultaneous speech translation">
+              </a>
+            </div>
+            <div class="research-info">
+              <div class="research-title">
+                <a href="https://arxiv.org/abs/2606.13121">NaturalFlow: Reducing Disruptive Pauses for Natural Speech Flow in Simultaneous Speech-to-Speech Translation</a>
+              </div>
+              <div class="research-authors">
+                <strong>Dongwook Lee</strong>*,
+                Youngho Cho*,
+                Sangkwon Park,
+                Heeseung Kim,
+                <a href="http://ailab.snu.ac.kr/">Sungroh Yoon</a>
+              </div>
+              <div class="research-links">
+                <a href="https://arxiv.org/abs/2606.13121">[arXiv]</a>
+                <a href="https://naturalflows2st.github.io/naturalflow/">[Project Page]</a>
+              </div>
+              <div class="research-venue">Interspeech 2026 (long)</div>
+              <p class="research-hook">
+                Can simultaneous speech-to-speech translation sound natural without waiting too long?<br>
+                What if real-time translation could keep flowing without awkward pauses?
+              </p>
+            </div>
+          </article>
+
+          <article class="research-card">
+            <div class="research-teaser">
+              <a href="data/tpi_teaser.png">
+                <img src="data/tpi_teaser.png" alt="Third-party interruption example for voice assistants">
+              </a>
+            </div>
+            <div class="research-info">
+              <div class="research-title">
+                <a href="https://arxiv.org/abs/2604.17358">Still Between Us? Evaluating and Improving Voice Assistant Robustness to Third-Party Interruptions</a>
+              </div>
+              <div class="research-authors">
+                <strong>Dongwook Lee</strong>,
+                Eunwoo Song,
+                Che Hyun Lee,
+                Heeseung Kim,
+                <a href="http://ailab.snu.ac.kr/">Sungroh Yoon</a>
+              </div>
+              <div class="research-links">
+                <a href="https://arxiv.org/abs/2604.17358">[arXiv]</a>
+                <a href="https://tpi-va.github.io/">[Project Page]</a>
+              </div>
+              <div class="research-venue">ACL 2026</div>
+              <p class="research-hook">
+                Can we build voice assistants that stay robust to third-party interruptions?<br>
+                What happens when someone nearby tries to hijack the conversation?
+              </p>
+            </div>
+          </article>
+
+          <article class="research-card">
+            <div class="research-teaser">
+              <a href="data/paper_image.jpg">
+                <img src="data/paper_image.jpg" alt="Overview of Compositional Conservatism">
+              </a>
+            </div>
+            <div class="research-info">
+              <div class="research-title">
+                <a href="https://openreview.net/forum?id=HRkyLbBRHI">Compositional Conservatism: A Transductive Approach in Offline Reinforcement Learning</a>
+              </div>
+              <div class="research-authors">
                 <a href="https://yedasong.com/">Yeda Song</a>*,
                 <strong>Dongwook Lee</strong>*,
                 <a href="https://vision.snu.ac.kr/gunhee/">Gunhee Kim</a>
+              </div>
+              <div class="research-links">
+                <a href="https://openreview.net/forum?id=HRkyLbBRHI">[OpenReview]</a>
+                <a href="https://arxiv.org/abs/2404.04682">[arXiv]</a>
+                <a href="https://github.com/runamu/compositional-conservatism">[Code]</a>
+              </div>
+              <div class="research-venue">ICLR 2024</div>
+              <p class="research-hook">
+                Can offline RL stay conservative without becoming overly pessimistic?<br>
+                What if we reason about states compositionally instead of treating every deviation as equally risky?
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
 
-                <br>
-                <em>ICLR</em>, 2024
-                <br>
-                <a href="https://openreview.net/forum?id=HRkyLbBRHI">Openreview</a>
-                /
-                <a href="https://arxiv.org/abs/2404.04682">arXiv</a>
-                /
-                <a href="https://github.com/runamu/compositional-conservatism">CODE</a>
-                <p></p>
-                <p>
-                COCOA is a novel approach in offline reinforcement learning (RL) that promotes compositional conservatism by breaking down the input state into an anchor and its deviation. It utilizes a learned reverse dynamics model to ensure both the anchors and differences align with in-distribution data, thereby mitigating OOD problem in the input space used by policies or value functions.
-                </p>
-            </td>
-          </tr>
+      <a class="anchor" id="background"></a>
+      <section class="section">
+        <div class="container grid">
+          <div class="section-label">Background</div>
+          <div class="background-list">
+            <div class="background-item">
+              <div>
+                <strong>Seoul National University DSAIL | Seoul, Korea</strong><br>
+                Researcher in speech and language intelligence
+              </div>
+              <span>2026 - Present</span>
+            </div>
+            <div class="background-item">
+              <div>
+                <strong>Seoul National University Vision & Learning Lab | Seoul, Korea</strong><br>
+                Lab Intern in reinforcement learning
+              </div>
+              <span>2025</span>
+            </div>
+            <div class="background-item">
+              <div>
+                <strong>Seoul National University | Seoul, Korea</strong><br>
+                B.S. in Naval Architecture and Ocean Engineering<br>
+                B.S. in Computer Science
+              </div>
+              <span>2016 - 2024</span>
+            </div>
+            <div class="background-item">
+              <div>
+                <strong>Peking University | Beijing, China</strong><br>
+                Exchange Student in Engineering College
+              </div>
+              <span>2022 - 2023</span>
+            </div>
+            <div class="background-item">
+              <div>
+                <strong>Military Service | Air Force, Korea</strong>
+              </div>
+              <span>2018 - 2019</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-          <!-- second paper -->
-          <tr bgcolor="#ffffd0">
-            <td style="padding:20px; width:25%; vertical-align:middle; text-align:center;">
-                <!-- 이미지 제거 -->
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <span class="papertitle">OBAR: Observation-Behavior-Aware Rewards from Video Language Models in Reinforcement Learning</span>
-                <br>
-                Anonymous Authors
-                <br>
-                <!-- <em>ICLR</em>, 2024 -->
-                <br>
-                <!-- 링크 제거 -->
-                <p></p>
-                <p></p>
-            </td>
-        </tr>
+      <a class="anchor" id="teaching"></a>
+      <section class="section">
+        <div class="container grid">
+          <div class="section-label">Teaching</div>
+          <div class="teaching-item">
+            <strong>Samsung AI Expert - Speech AI</strong><br>
+            <span>Instructor for speech AI lectures.</span>
+          </div>
+        </div>
+      </section>
 
-          <!-- Education -->
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <h2>Education</h2>
-                </td>
-              </tr>
-              <tr>
-                <td class="left-align"><strong>Seoul National University | Seoul, Korea</strong><br>
-                  B.S. in Naval Architecture and Ocean Engineering<br>
-                  B.S. in Computer Science
-                </td>
-                <td class="right-align nowrap">
-                  Mar. 2016 - Aug. 2024
-                </td>
-              </tr>
-              <tr>
-                <td class="left-align"><strong>Peking University | Beijing, China</strong><br>
-                  Exchange Student in Engineering College
-                </td>
-                <td class="right-align nowrap">
-                  Jan. 2022 - Jan. 2023
-                </td>
-              </tr>
-            </tbody>
-          </table>
-
-            <!-- Experience -->
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-              <tbody>
-                <tr>
-                  <td style="padding:20px;width:100%;vertical-align:middle">
-                    <h2>Experience</h2>
-                  </td>
-                  <!-- <td colspan="2">
-                    <h2><strong>Experience</strong></h2>
-                  </td> -->
-                </tr>
-                <tr>
-                  <td class="left-align"><strong>Seoul National University Vision & Learning Lab | Seoul, Korea</strong><br>
-                    Intern Researcher in Reinforcement Learning
-                    RL foundation model and offline RL.
-                  </td>
-                  <td class="right-align nowrap">
-                    Jan. 2023 - Present
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align"><strong>Peking University | Beijing, China</strong><br>
-                    Intern Researcher in Multimodal Domain<br>
-                    Fine-grained classification on sound, image, and text modalities.
-                  </td>
-                  <td class="right-align nowrap">
-                    Oct. 2022 - Jan. 2023
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align"><strong>Seoul National University Semi-Conductor for AI Laboratory | Seoul, Korea</strong><br>
-                    Remote Exam Supervision Program Team Intern<br>
-                    An Android application for real-time exam supervision.
-                  </td>
-                  <td class="right-align nowrap">
-                    Sep. 2021 - Dec. 2021
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align"><strong>Daewoo ShipBuilding & Marine Engineering | Siheung, Korea</strong><br>
-                    Propulsion Design R&D Team Intern<br>
-                    Rendering a propeller model for a commercial container ship with C++.
-                  </td>
-                  <td class="right-align nowrap">
-                    Jul. 2020 - Aug. 2020
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align"><strong>Military Service | Air-force, Korea</strong><br>
-                  </td>
-                  <td class="right-align nowrap">
-                    Jan. 2018 - Dec. 2019
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-
-            <!-- Corporate Projects Section -->
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-              <tbody>
-                <tr>
-                  <td style="padding:20px;width:100%;vertical-align:middle">
-                    <h2>Corporate Projects</h2>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align"><strong>Edutech Research Institute, Woongjin CoE | Seoul, Korea</strong><br>
-                    Enhancing children's concentration by recognizing speech(TTS) from audiobooks and highlighting corresponding text on the book using optical character recognition (OCR).
-                  </td>
-                  <td class="right-align nowrap">
-                    Jan. 2023 - Dec. 2023
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-
-
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  Feel free to clone the format from <a href="https://github.com/jonbarron/jonbarron_website">here</a>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </table>
+    </main>
   </body>
 </html>
