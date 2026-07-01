@@ -225,6 +225,10 @@ a.anchor {
 }
 
 .teaching-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  align-items: start;
   font-size: 0.96rem;
   text-align: left;
 }
@@ -232,6 +236,10 @@ a.anchor {
 .teaching-item span {
   color: var(--muted-color);
   font-size: 0.92rem;
+}
+
+.teaching-item > span {
+  white-space: nowrap;
 }
 
 .footer {
@@ -287,6 +295,11 @@ a.anchor {
   }
 
   .background-item {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+
+  .teaching-item {
     grid-template-columns: 1fr;
     gap: 0.1rem;
   }
