@@ -230,11 +230,6 @@ a.anchor {
   justify-self: end;
 }
 
-.teaching-detail {
-  color: var(--muted-color);
-  font-size: 0.92rem;
-}
-
 .footer {
   display: none;
 }
