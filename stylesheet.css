@@ -160,6 +160,15 @@ a.anchor {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+
+.research-teaser a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .research-teaser img {
@@ -267,7 +276,7 @@ a.anchor {
 
   .research-card {
     grid-template-columns: 1fr;
-    gap: 0.45rem;
+    gap: 0.65rem;
     min-height: auto;
   }
 
@@ -277,9 +286,12 @@ a.anchor {
     justify-content: flex-start;
   }
 
+  .research-teaser a {
+    justify-content: flex-start;
+  }
+
   .research-teaser img {
-    width: auto;
-    max-width: 100%;
+    object-position: left center;
   }
 
   .background-item {
